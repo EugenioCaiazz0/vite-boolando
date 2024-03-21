@@ -4,61 +4,12 @@ $boolando-color: #ff6902;
     border: 1px solid red;
 }
 
-header{
-    display: flex;
-    background-color: #ff6902;
-    color: white;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width:99%;
-    margin: 0 auto;
-}
-
 .container.products-container{
     max-width: 1050px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-}
-
-.top-menu{
-    height: 50px;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-button{
-    background: none;
-    border: none;
-}
-
-.logo{
-    height: 100%;
-    background-size: cover;
-}
-
-.logo img{
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.top-menu button{
-    color: white;
-}
-
-header ul{
-    list-style: none;
-}
-
-header ul li{
-    display: inline-block;
 }
 
 .product-page{

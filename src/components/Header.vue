@@ -3,7 +3,7 @@
 </script>
 
 <template>
-
+<header>
     <div class="container top-menu">
             
             <nav class="menu-buttons">
@@ -13,7 +13,7 @@
             </nav>
 
             <div class="logo">
-                <img src="assets/img/boolean-logo.png">
+                <img src="./assets/img/boolean-logo.png">
             </div>
 
             <nav class="menu-buttons">
@@ -25,8 +25,34 @@
             </nav>
 
     </div>
-
+</header>
 </template>
 
 <style lang="scss" scoped>
+
+header{
+    display: flex;
+    background-color: #ff6902;
+    color: white;
+}
+
+.top-menu{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    button{
+    color: white;
+    }
+
+    ul{
+    list-style: none;
+        li{
+        display: inline-block;
+        }
+    }
+
+}
 </style>
