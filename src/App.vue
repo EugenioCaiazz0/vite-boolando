@@ -23,6 +23,6 @@ export default{
 
 <style lang="scss">
 
-  @use "src/assets/style/style.scss";
+  @use "./assets/style/style.scss";
 
 </style>

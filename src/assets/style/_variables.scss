@@ -1,1 +1,172 @@
 $boolando-color: #ff6902;
+
+.debug{
+    border: 1px solid red;
+}
+
+header{
+    display: flex;
+    background-color: #ff6902;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:99%;
+    margin: 0 auto;
+}
+
+.container.products-container{
+    max-width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.top-menu{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.logo{
+    height: 100%;
+    background-size: cover;
+}
+
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.top-menu button{
+    color: white;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+.product-page{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 335px;
+    max-height: 530px;
+}
+
+.product-image{
+    max-width: 335px;
+    max-height: 485px;
+}
+
+.first-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.second-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.first-image:hover {
+  display: none;
+}
+
+.discount{
+    position: absolute;
+    display: flex;
+    top: 430px;
+    left: 0;
+    color: white;
+    height: 20px;
+    width: 40px;
+    background-color: #ff0001;
+    z-index: 2;
+    justify-content: center;
+    font-size: x-small;
+    text-align: center;
+    line-height: 20px;
+}
+
+.sustainability{
+    position: absolute;
+    display: flex;
+    top: 430px;
+    left: 45px;
+    color: white;
+    height: 20px;
+    width: 80px;
+    background-color: #038102;
+    z-index: 2;
+    justify-content: center;
+    font-size: x-small;
+    text-align: center;
+    line-height: 20px;
+}
+
+.saved{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    z-index: 2;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 335px;
+    max-height: 45px;
+    width: 335px;
+    height: 45px;
+    position: absolute;
+    top: 485px;
+}
+
+.brand{
+    font-size: xx-small;
+    color: gray;
+}
+
+.product-name{
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.actual-price{
+    color: red;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.old-price{
+    text-decoration: line-through;
+    font-size: smaller;
+}

@@ -1,8 +1,6 @@
-@use "_variables" as *;
+@use "_variables.scss" as *;
 
-@import "/bootstrap/scss/bootstrap.scss";
-
-@import "@fontsource/roboto/index.css";
+@import "./bootstrap/scss/bootstrap.scss";
 
 * {
     margin:  0;
