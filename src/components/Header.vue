@@ -6,7 +6,7 @@
 <header>
     <div class="container top-menu">
             
-            <nav class="menu-buttons">
+            <nav>
                 <button type="button"> Uomo </button>
                 <button type="button"> Donna </button>
                 <button type="button"> Bambini </button>
@@ -16,7 +16,7 @@
                 <img src="./assets/img/boolean-logo.png">
             </div>
 
-            <nav class="menu-buttons">
+            <nav>
                 <ul>
                     <li><i class="fa-regular fa-user"></i></li>
                     <li><i class="fa-regular fa-heart"></i></li>
