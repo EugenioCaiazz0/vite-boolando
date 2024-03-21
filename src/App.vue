@@ -1,11 +1,28 @@
-<script setup>
-import  from 
+<script>
+import Header from './components/Header.vue'; 
+import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
+
+export default{
+  components: {
+    Header,
+    Main,
+    Footer
+  }
+}
+
 </script>
 
 <template>
   
+  <Header  />
+  <Main  />
+  <Footer  />
+
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+
+  @use "src/assets/style/style.scss";
 
 </style>
