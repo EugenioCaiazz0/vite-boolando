@@ -13,7 +13,7 @@
             </nav>
 
             <div class="logo">
-                <img src="./assets/img/boolean-logo.png">
+                <img src="../assets/img/boolean-logo.png" alt="">
             </div>
 
             <nav>
@@ -45,12 +45,14 @@ header{
 
     button{
     color: white;
+    margin-right: 5px;
     }
 
     ul{
     list-style: none;
         li{
         display: inline-block;
+        margin-right: 5px;
         }
     }
 
